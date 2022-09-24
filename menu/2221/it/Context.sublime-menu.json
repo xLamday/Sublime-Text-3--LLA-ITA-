@@ -1,0 +1,13 @@
+[
+    { "command": "copy", "caption": "Copia" },
+    { "command": "cut", "caption" : "Taglia" },
+    { "command": "paste", "caption": "Incolla" },
+    { "caption": "-", "id": "selection" },
+    { "command": "select_all", "caption": "Seleziona tutto" },
+    { "caption": "-", "id": "file" },
+    { "command": "open_in_browser", "caption": "Apri nel browser" },
+    { "command": "open_dir", "args": {"dir": "$file_path", "file": "$file_name"}, "caption": "Apri percorso file…" },
+    { "command": "copy_path", "caption": "Copia percorso file" },
+    //{ "command": "reveal_in_side_bar", "caption": "Reveal in Side Bar" },
+    { "caption": "-", "id": "end" }
+]
