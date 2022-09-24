@@ -1,0 +1,16 @@
+[
+    { "command": "open_context_url" },
+    { "command": "context_goto_definition", "caption": "Goto Definition" },
+    { "caption": "-", "id": "clipboard" },
+    { "command": "copy" },
+    { "command": "cut" },
+    { "command": "paste" },
+    { "caption": "-", "id": "selection" },
+    { "command": "select_all" },
+    { "caption": "-", "id": "file" },
+    { "command": "open_in_browser", "caption": "Apri nel browser" },
+    { "command": "open_dir", "args": {"dir": "$file_path", "file": "$file_name"}, "caption": "Apri percorso file…" },
+    { "command": "copy_path", "caption": "Copia percorso file" },
+    { "command": "reveal_in_side_bar", "caption": "Reveal in Side Bar" },
+    { "caption": "-", "id": "end" }
+]
