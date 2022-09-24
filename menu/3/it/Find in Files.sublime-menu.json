@@ -1,0 +1,9 @@
+[
+    { "command": "clear_location", "caption": "Pulisci" },
+    { "command": "add_directory", "caption": "Aggiungi cartella" },
+    { "command": "add_where_snippet", "args": {"snippet": "*.${0:txt}"}, "caption": "Aggiungi inclusione" },
+    { "command": "add_where_snippet", "args": {"snippet": "-*.${0:txt}"}, "caption": "Aggiungi esclusione" },
+    { "command": "add_where_snippet", "args": {"snippet": "<open folders>"}, "caption": "Add Open Folders" },
+    { "command": "add_where_snippet", "args": {"snippet": "<open files>"}, "caption": "Add Open Files" },
+    { "command": "add_where_snippet", "args": {"snippet": "<current file>"}, "caption": "Add Current File" },
+]
